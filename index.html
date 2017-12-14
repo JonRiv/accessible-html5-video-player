@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Paypal example</title>
+    <meta charset="utf-8" />
+    <title>Paypal example</title>
 </head>
 <body>
-	<link rel="stylesheet" href="css/px-video.css" />
-	<div class="px-video-container" id="myvid">
+    <link rel="stylesheet" href="css/px-video.css" />
+    <div class="px-video-container" id="myvid">
     <div class="px-video-img-captions-container">
         <div class="px-video-captions hide" aria-hidden="true"></div>
         <video width="640" height="360" controls>
-            <source src="MalcolmLondon_2013S-480p.mp4" type="video/mp4" />
-            <track kind="captions" label="English captions" src="test-vtt.vtt" srclang="en" default />
+            <source src="media/MalcolmLondon_2013S-480p.mp4" type="video/mp4" />
+            <track kind="captions" label="English captions" src="media/authot.vtt" srclang="en" default />
             <div>
                 <a href="foo.mp4">
                     <img src="media/foo.jpg" width="640" height="360" alt="download video" />
@@ -28,7 +28,7 @@
 <script>
 // Initialize
 new InitPxVideo({
-    "videoId": "MalcolmLondon_2013S-480p",
+    "videoId": "myvid",
     "captionsOnDefault": true,
     "seekInterval": 20,
     "videoTitle": "clips of stand-up comedy",
